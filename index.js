@@ -4,10 +4,9 @@ const compressVideo = require("./utils/compress_video");
 const discoverVideos = require("./utils/discover_videos");
 
 program.command("input <input>")
-    .option("-c, --codec <codec>", "Codec de saída", "265")
-    .option("-o, --output", "Diretório de saída")
-    .option("-r, --resolution <resolution>", "Resolução de saída", "640x?")
-    .option("-do, --delete-original", "Apagar arquivo original")
+    .option("-c, --codec <codec>", "output codec", "265")
+    .option("-o, --output", "output directory")
+    .option("-r, --resolution <resolution>", "output resolution", "640x?")
     .action(async (input, cmd) => {
         try {
             const results = [];
