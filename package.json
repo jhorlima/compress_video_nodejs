@@ -1,0 +1,22 @@
+{
+  "name": "compress_folder_videos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "fast-crc32c": "^1.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "@ffmpeg-installer/ffmpeg": "^1.0.17"
+  },
+  "private": true,
+  "engines": {
+    "node": "8"
+  }
+}
