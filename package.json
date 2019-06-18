@@ -10,10 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.17",
     "commander": "^2.20.0",
     "fast-crc32c": "^1.0.4",
     "fluent-ffmpeg": "^2.1.2",
-    "@ffmpeg-installer/ffmpeg": "^1.0.17"
+    "json2csv": "^4.5.1"
   },
   "private": true,
   "engines": {
